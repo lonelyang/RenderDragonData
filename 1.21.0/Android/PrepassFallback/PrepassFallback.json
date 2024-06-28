@@ -1,0 +1,74 @@
+{
+  "version": 22,
+  "encryptionVariant": "None",
+  "name": "PrepassFallback",
+  "hasParentName": false,
+  "samplerDefinitionMap": {},
+  "propertyFieldMap": {},
+  "formatVersion": "V2",
+  "dataOnly": true,
+  "passMap": {
+    "Fallback": {
+      "bitSet": "1111111111111111",
+      "fallback": "",
+      "hasDefaultBlendMode": false,
+      "flagDefaultValues": {},
+      "variantList": [
+        {
+          "isSupported": true,
+          "flags": {},
+          "shaderCodes": [
+            {
+              "platformShaderStage": {
+                "stageName": "Vertex",
+                "platformName": "ESSL_100",
+                "stage": "Vertex",
+                "platform": "ESSL_100"
+              },
+              "shaderCode": {
+                "shaderInputMap": {},
+                "sourceHash": 7815963980162967189
+              }
+            },
+            {
+              "platformShaderStage": {
+                "stageName": "Fragment",
+                "platformName": "ESSL_100",
+                "stage": "Fragment",
+                "platform": "ESSL_100"
+              },
+              "shaderCode": {
+                "shaderInputMap": {},
+                "sourceHash": -4872430838464291646
+              }
+            },
+            {
+              "platformShaderStage": {
+                "stageName": "Vertex",
+                "platformName": "ESSL_310",
+                "stage": "Vertex",
+                "platform": "ESSL_310"
+              },
+              "shaderCode": {
+                "shaderInputMap": {},
+                "sourceHash": 6895907857910763130
+              }
+            },
+            {
+              "platformShaderStage": {
+                "stageName": "Fragment",
+                "platformName": "ESSL_310",
+                "stage": "Fragment",
+                "platform": "ESSL_310"
+              },
+              "shaderCode": {
+                "shaderInputMap": {},
+                "sourceHash": -7369681099505394107
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
